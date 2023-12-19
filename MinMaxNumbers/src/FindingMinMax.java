@@ -1,8 +1,8 @@
 import java.util.Random;
 public class FindingMinMax
 {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) 
+    {
         int collectionSize = 10, i = 1;
         int number, min = 101, max = 0;
 
@@ -11,7 +11,8 @@ public class FindingMinMax
         Random r = new Random();
         System.out.print("Drawn: ");
 
-        while (i <= collectionSize){
+        while (i <= collectionSize)
+        {
             number = Math.round((r.nextInt(100)+1));
             System.out.print(number + "; ");
 
